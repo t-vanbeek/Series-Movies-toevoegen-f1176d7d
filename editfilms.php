@@ -66,7 +66,7 @@ foreach ($stmt as $row) {
             <label for="desc">Description:</label><br>
             <input type="text" id="desc" name="description" placeholder="description" value="<?php echo $descrip ?>"><br>
             <label for="land">Land van uitkomst:</label><br>
-            <input type="text"
+            <input type="text" id="country" name="country" placeholder="Country" value="<?php echo $countr ?>" /> <br>
             <input type="submit" id="send" name="Send" value="Send">
         </form>
     </div>
